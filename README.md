@@ -41,3 +41,7 @@ This is a simulation of a project that you might execute. Our goal is that by co
 
 1. Naive Bayes Classifier - https://github.com/shkr/wikiclassifier/blob/master/wikiclassifier.pdf
 
+## BERT for Text Classification
+On a range of natural language processing tasks, the BERT(Bidirectional Encoder Representations from Transformers) deep learning model has produced state-of-the-art results. It is a powerful and game-changing NLP framework from Google. BERT models are usually pre-trained on a large corpus of text, then fine-tuned for specific tasks.
+![bert-architecture width-1280](https://user-images.githubusercontent.com/91879854/179442183-ec854dc1-84ba-4e8c-a8a8-ba4b3446dd24.png)
+For given text input, BERT creates a language representation model using the Transformer encoder architecture. The input to the BERT encoder is a  series of tokens that are first transformed into vectors and then processed by the neural network. By just adding a few layers to the basic BERT model, it can be applied to solve a wide range of language tasks.
