@@ -41,6 +41,17 @@ This is a simulation of a project that you might execute. Our goal is that by co
 
 1. Naive Bayes Classifier - https://github.com/shkr/wikiclassifier/blob/master/wikiclassifier.pdf
 
+## Overview of Beautiful Soup
+Beautiful Soup is a Python library for pulling data out of HTML and XML files. It creates a parse tree that allows scrapping specific documents from the HTML or XML file.
+
+**SETUP**
+```
+$ pip install beautifulsoup4
+```
+The ```find_all()``` method takes an HTML tag as a string argument and returns the list of elements that match with the provided tag. Here, we will extract all the ```<p>``` tags from the provided HTML files and store the extracted information in a CSV file.
+
+The code for the same can be found in the repository.
+
 ## BERT for Text Classification
 On a range of natural language processing tasks, the BERT(Bidirectional Encoder Representations from Transformers) deep learning model has produced state-of-the-art results. It is a powerful and game-changing NLP framework from Google. BERT models are usually pre-trained on a large corpus of text, then fine-tuned for specific tasks.
 ![bert-architecture width-1280](https://user-images.githubusercontent.com/91879854/179442183-ec854dc1-84ba-4e8c-a8a8-ba4b3446dd24.png)
@@ -57,7 +68,7 @@ https://drive.google.com/file/d/1vI-HWRGEfehq2XjZBx_7CeWbBCmmZA1E/view?usp=shari
 
 The code for the same can be found in the repository.
 
-# Custom NER model
+## Custom NER model
 
 SpaCy is an open-source Python library that does advanced natural language processing. It aids in the development of applications that process and "understand" massive amounts of text.  It can be used to create systems for information extraction, NLU, or text pre-processing for deep learning. Tokenization, Parts-of-Speech 
 (PoS) Tagging, Text Classification, and Named Entity Recognition(NER) are a few of the functionalities offered by spaCy.
@@ -81,9 +92,7 @@ The code for the same can be found in the repository.
 **TESTING THE MODELS**
 
 To test the trained models, execute runner.ipynb script. Make sure tensorflow-text, beautifulsoup4 is installed first.
-```
-$ pip install beautifulsoup4
-```
+
 
 
 
