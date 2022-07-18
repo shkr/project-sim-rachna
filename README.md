@@ -66,7 +66,7 @@ SpaCy is an open-source Python library that does advanced natural language proce
 
 SpaCy can be installed using a simple pip install.
 ```
-!pip install -U spacy
+$ pip install -U spacy
 ```
 SpaCy NER already supports the entity types like - (PERSON)People, including fictional. (NORP)Nationalities or religious or political groups. (FAC)Buildings, airports, highways, bridges, etc. (ORG)Companies, agencies, institutions, etc. (GPE)Countries, cities, states, etc.
 
@@ -82,7 +82,7 @@ The code for the same can be found in the repository.
 
 To test the trained models, execute runner.ipynb script. Make sure tensorflow-text, beautifulsoup4 is installed first.
 ```
-!pip install beautifulsoup4
+$ pip install beautifulsoup4
 ```
 
 
