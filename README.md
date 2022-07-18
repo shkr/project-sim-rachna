@@ -80,7 +80,7 @@ The code for the same can be found in the repository.
 
 **TESTING THE MODELS**
 
-Make sure tensorflow-text, beautifulsoup4 is installed.
+To test the trained models, execute runner.ipynb script. Make sure tensorflow-text, beautifulsoup4 is installed first.
 ```
 !pip install beautifulsoup4
 ```
